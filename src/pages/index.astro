@@ -1,0 +1,242 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Curriculum">
+
+    <!-- ENCABEZADO -->
+
+    <header slot="header" class="hero">
+
+        <div class="hero-contenido">
+            <div>
+                <h1>Alexis Nahuel Ferreyra</h1>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="inicio">
+
+        <!-- SOBRE MÍ -->
+
+        <section class="seccion">
+
+            <h2>Sobre mí</h2>
+
+            <div class="presentacion">
+
+                <!-- FOTO -->
+
+                <div class="foto-container">
+                    <img
+                        src="/FotoPerfilCV.png"
+                        alt="Foto de Alexis Nahuel Ferreyra"
+                        class="foto-perfil"
+                    >
+                </div>
+
+                <!-- DATOS PERSONALES -->
+                <article class="tarjeta datos-personales">
+
+                    <h3>Datos personales</h3>
+
+                    <div class="dato">
+                        <span>Edad: 19 años</span>
+                    </div>
+
+                    <div class="dato">
+                        <span>Estudiante en Inegenieria en Sistemas</span>
+                    </div>
+
+                    <div class="dato">
+                        <span>Localidad: San Francisco Cordoba/Arroyito Cordoba</span>
+                    </div>
+
+                    <div class="dato">
+                        <span>Estado civil: Soltero</span>
+                    </div>
+
+                    <div class="dato">
+                        <span>Sin hijos</span>
+                    </div>
+                </article>
+            </div>
+
+            <!-- PERFIL PROFESIONAL -->
+            <article class="tarjeta perfil">
+
+                <h3>Perfil profesional</h3>
+
+                <p>
+                    Soy estudiante de Ingeniería en Sistemas de Información,
+                    con interés en el desarrollo de software y las tecnologías
+                    de la información. Actualmente me encuentro fortaleciendo
+                    mis conocimientos en programación, desarrollo web y
+                    resolución de problemas mediante distintos proyectos y
+                    actividades académicas como personales.
+                </p>
+
+                <p>
+                    Me considero una persona responsable, con iniciativa y
+                    con muchas ganas de seguir aprendiendo y adquiriendo
+                    experiencia en el ámbito tecnológico. Busco continuar
+                    desarrollando mis habilidades y enfrentar nuevos desafíos
+                    que me permitan crecer tanto a nivel profesional como
+                    personal.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- FORMACIÓN ACADÉMICA -->
+
+        <section class="seccion">
+
+            <h2>Formación académica</h2>
+
+            <div class="timeline">
+
+                <article class="formacion">
+                    <div>
+
+                        <span class="formacion-fecha negrita">
+                            ProA sede Arroyito (2019 — 2024)
+                        </span>
+                        <p>
+                            Bachiller en informática con formación especializada
+                            en desarrollo de software.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="formacion">
+                    <div>
+
+                        <span class="formacion-fecha negrita">
+                            UTN-Facultad Regional San Francisco <br>(2025 — Cursando)
+                        </span>
+
+                        <p>
+                            Ingeniería en Sistemas de la Información-(23% de la carrera echa)
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+
+        <section class="seccion">
+
+            <h2>Habilidades</h2>
+
+            <div class="habilidades">
+
+                <span>Resolución de problemas</span><br>
+                <span>Comprometido</span><br>
+                <span>Aprendizaje continuo</span><br>
+                <span>Habilidades analíticas</span><br>
+                <span>Organización</span><br>
+                <span>Adaptabilidad</span><br>
+                <span>Trabajo en equipo</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONOCIMIENTOS TÉCNICOS -->
+
+        <section class="seccion">
+
+            <h2>Conocimientos técnicos</h2>
+
+            <div class="conocimientos-tecnicos">
+
+                <article class="tecnico">
+                    <h3>Python</h3>
+                    <span>Básico / Intermedio</span>
+                </article>
+
+                <article class="tecnico">
+                    <h3>C</h3>
+                    <span>Básico / Intermedio</span>
+                </article>
+
+                <article class="tecnico">
+                    <h3>HTML y CSS</h3>
+                    <span>Básico</span>
+                </article>
+
+                <article class="tecnico">
+                    <h3>Linux</h3>
+                    <span>Manejo básico de terminal y comandos</span>
+                </article>
+
+                <article class="tecnico">
+                    <h3>UML</h3>
+                    <span>Modelado y documentación de sistemas</span>
+                </article>
+
+                <article class="tecnico">
+                    <h3>BPMN</h3>
+                    <span>Modelado de procesos de negocio</span>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- IDIOMAS E INTERESES -->
+
+        <section class="seccion">
+
+            <div class="tarjetas dos-columnas">
+
+                <article class="tarjeta">
+
+                    <h3>Idiomas</h3>
+
+                    <div class="dato">
+                        <span>Español: </span>
+                        <strong>Nativo</strong>
+                    </div>
+
+                    <div class="dato">
+                        <span>Inglés: </span>
+                        <strong>B1</strong>
+                    </div>
+
+                </article>
+
+
+                <article class="tarjeta">
+
+                    <h3>Intereses</h3>
+
+                    <ul class="lista-simple">
+                        <li>Desarrollo de Software</li>
+                        <li>Análisis de Sistemas y Procesos</li>
+                        <li>Puestos informáticos</li>
+                    </ul>
+
+                </article>
+
+            </div>
+        </section>
+    </main>
+</Layout>
