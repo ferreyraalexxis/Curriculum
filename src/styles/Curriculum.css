@@ -470,3 +470,227 @@ footer {
 .certificado h3 {
     margin-top: 0;
 }
+/* ========================================
+   RESPONSIVE - TABLETS
+   ======================================== */
+
+@media (max-width: 900px) {
+
+    /* Contenedor principal */
+
+    main {
+        width: 90%;
+        padding: 25px;
+    }
+
+
+    /* Foto + datos personales */
+
+    .presentacion {
+        grid-template-columns: 220px 1fr;
+        gap: 20px;
+    }
+
+    .foto-perfil {
+        width: 180px;
+        height: 180px;
+    }
+
+
+    /* Conocimientos técnicos */
+
+    .conocimientos-tecnicos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Contactos */
+
+    .contactos {
+        flex-wrap: wrap;
+    }
+
+    .contacto {
+        width: 50%;
+    }
+}
+
+
+/* ========================================
+   RESPONSIVE - CELULARES
+   ======================================== */
+
+@media (max-width: 600px) {
+
+    /* ---------- GENERAL ---------- */
+
+    body {
+        margin: 0;
+        font-size: 15px;
+    }
+
+
+    /* ---------- HEADER ---------- */
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+
+    /* ---------- NAVBAR ---------- */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0;
+        padding: 8px 15px;
+    }
+
+
+    /* ---------- CONTENIDO ---------- */
+
+    main {
+        width: 90%;
+
+        margin: 20px auto;
+
+        padding: 20px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ---------- FOTO + DATOS ---------- */
+
+    .presentacion {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .foto-container {
+        padding: 15px;
+    }
+
+    .foto-perfil {
+        width: 180px;
+        height: 180px;
+    }
+
+
+    /* ---------- CONOCIMIENTOS TÉCNICOS ---------- */
+
+    .conocimientos-tecnicos {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* ---------- CONTACTOS ---------- */
+
+    .contactos {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contacto {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .whatsapp,
+    .gmail {
+        border-right: none;
+        border-bottom: 2px solid #aaa;
+    }
+
+    .gmail {
+        padding-left: 20px;
+    }
+
+
+    /* ---------- BOTONES ---------- */
+
+    .boton-contacto {
+        display: block;
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        margin: 10px 0;
+    }
+
+
+    /* ---------- EXPERIENCIA ---------- */
+
+    .experiencia-timeline {
+        margin-left: 5px;
+        padding-left: 25px;
+    }
+
+    .experiencia-timeline::before {
+        left: 0;
+    }
+
+    .experiencia-punto {
+        left: -37px;
+    }
+
+    .experiencia-contenido {
+        padding: 20px;
+    }
+
+
+    /* ---------- PROYECTOS ---------- */
+
+    .proyecto {
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 20px;
+    }
+
+    .proyecto-icono {
+        font-size: 35px;
+    }
+
+
+    /* ---------- CERTIFICADOS ---------- */
+
+    .certificado {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+        padding: 20px;
+    }
+
+
+    /* ---------- TEXTO ---------- */
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
